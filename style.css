@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-image: url(wallpaperflare-cropped.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#clock-contaier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  height: 100vh;
+}
+#clock {
+  font-family: monospace;
+  font-size: 6.5rem;
+  font-weight: bold;
+  text-align: center;
+  backdrop-filter: blur(5px);
+  width: 100%;
+}
